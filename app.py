@@ -49,10 +49,13 @@ st.markdown("""
         border: 1px solid #30363d;
     }
     /*side bar collapse button*/
-    [data-testid="stMetric"]{
-    background-color:rgb(255,255,255,0.08) !important;
-    border-radius:8px !important;
-
+    [data-testid="collapsedControl"] button {
+        background-color: #ffeb3b !important; /* Bright yellow background */
+        color: #000000 !important;             /* Dark icon color */
+        transform: scale(1.6) !important;      /* Increases button size */
+        border: 2px solid #ff9800 !important;  /* Orange border */
+        border-radius: 8px !important;
+        box-shadow: 0 0 10px rgba(255, 235, 59, 0.8) !important; /* Outer glow */
     }
 
 </style>
